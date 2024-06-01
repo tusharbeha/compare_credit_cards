@@ -10,7 +10,14 @@
       "name":"ICICI Bank Sapphiro Credit Card",
       "features":{
          "joining_fee":"6500 + GST",
-         "annual_fee":"3500 + GST"
+         "annual_fee":"3500 + GST",
+         "annual_fee_waiver":"Annual fee waived off if you spend more than Rs. 3,00,000 in the previous year",
+         "movie": "2 complimentary movie tickets every month",
+         "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
+         "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
+         "airport": "2 complimentary domestic airport lounge visits per quarter",
+         "railway": "2 complimentary railway lounge visits per quarter",
+         "reward_points": ["Upto 3 ICICI Reward points on domestic spends and upto 6 ICICI Reward points on international spends"]
       }
    },
    {
@@ -31,7 +38,11 @@
       "name":"ICICI Bank Platinum Chip Credit Card",
       "features":{
          "joining_fee":"NIL",
-         "annual_fee":"NIL"
+         "annual_fee":"NIL",
+         "interest": "3.40% per month (40.80% annualized)",
+         "reward_points": ["Earn 2 Reward Points on every Rs 100 spent for all retail purchases except fuel.", "Get 1 Reward Point on every Rs 100 spent on utilities and insurance categories"],
+         "redeem": "ICICI Bank Rewards platform",
+         "fuel": "1% fuel surcharge waiver can be availed on fuel transactions of maximum ₹ 4,000 at HPCL pumps when the Card is swiped on ICICI Merchant Services swipe machines."
       }
    },
    {

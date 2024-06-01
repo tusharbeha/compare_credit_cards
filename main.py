@@ -10,7 +10,18 @@ def add_bank_cards(bank_name, json_data_path, result_list):
         b = Bank(bank_name)
         b.CreditCards = []
         for cc in cc_data:
-            f = Features(cc["features"]["joining_fee"], cc["features"]["annual_fee"])
+            cc_features = cc["features"]
+
+            f = Features(cc_features["joining_fee"], cc_features["annual_fee"],
+                         cc_features["interest"] if "interest" in cc_features else "",
+                         cc_features["reward_points"] if "reward_points" in cc_features else "",
+                         cc_features["redeem"] if "redeem" in cc_features else "",
+                         cc_features["fuel"] if "fuel" in cc_features else "",
+                         cc_features["annual_fee_waiver"] if "annual_fee_waiver" in cc_features else "",
+                         cc_features["movie"] if "movie" in cc_features else "",
+                         cc_features["dining"] if "dining" in cc_features else "",
+                         cc_features["airport"] if "airport" in cc_features else "",
+                         cc_features["railway"] if "railway" in cc_features else "")
             b.CreditCards.append(CreditCard(cc["name"], f))
         result_list.append(b)
 
