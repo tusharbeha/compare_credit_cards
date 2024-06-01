@@ -1,45 +1,25 @@
 from bank import Bank
 from creditcard import CreditCard
+from features import Features
+import json
+
+
+def add_bank_cards(bank_name, json_data_path, result_list):
+    with open(json_data_path) as data:
+        cc_data = json.load(data)
+        b = Bank(bank_name)
+        b.CreditCards = []
+        for cc in cc_data:
+            f = Features(cc["features"]["joining_fee"], cc["features"]["annual_fee"])
+            b.CreditCards.append(CreditCard(cc["name"], f))
+        result_list.append(b)
+
 
 if __name__ == "__main__":
-    bank_name_list = ["ICICI Bank", "HDFC Bank", "Axis Bank"]
-    bank_list = []
-    credit_cards_icici = [
-        "ICICI Bank Emeralde Credit Card",
-        "ICICI Bank Sapphiro Credit Card",
-        "ICICI Bank Coral Contactless Credit Card",
-        "ICICI Bank Rubyx Credit Card",
-        "ICICI Bank Platinum Chip Credit Card",
-        "ICICI Bank VISA Signature Credit Card",
-        "ICICI Bank HPCL Super Saver Credit Card",
-        "MakeMyTrip ICICI Bank Signature Credit Card"
-      ]
+    result_list = []
+    add_bank_cards("ICICI Bank", "data/icici.json", result_list)
+    add_bank_cards("HDFC Bank", "data/hdfc.json", result_list)
+    add_bank_cards("Axis Bank", "data/axis.json", result_list)
 
-    credit_cards_hdfc = ["HDFC Bank Regalia Credit Card",
-                         "HDFC Bank Diners Club Credit Card",
-                         "HDFC Bank Millenia Credit Card",
-                         "HDFC Bank MoneyBack Credit Card",
-                         "HDFC Bank Platinum Plus Credit card"]
-
-    credit_cards_axis = ["Axis Bank Ace Credit card",
-                         "Axis Bank Flipkart Credit card",
-                         "Axis Bank Neo Credit card",
-                         "Axis Bank Vistara Credit card",
-                         "Axis Bank Magnus Credit card"]
-
-    for bank in bank_name_list:
-        b = Bank(bank)
-        b.CreditCards = []
-        if bank == "ICICI Bank":
-            for cc in credit_cards_icici:
-                b.CreditCards.append(CreditCard(cc))
-        elif bank == "HDFC Bank":
-            for cc in credit_cards_hdfc:
-                b.CreditCards.append(CreditCard(cc))
-        elif bank == "Axis Bank":
-            for cc in credit_cards_axis:
-                b.CreditCards.append(CreditCard(cc))
-        bank_list.append(b)
-
-    for bank in bank_list:
+    for bank in result_list:
         print(bank)

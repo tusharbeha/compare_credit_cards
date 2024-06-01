@@ -1,0 +1,37 @@
+[
+   {
+      "name":"HDFC Bank Regalia Credit Card",
+      "features":{
+         "joining_fee":"12000 + GST",
+         "annual_fee":"12000 + GST"
+      }
+   },
+   {
+      "name":"HDFC Bank Diners Club Credit Card",
+      "features":{
+         "joining_fee":"6500 + GST",
+         "annual_fee":"3500 + GST"
+      }
+   },
+   {
+      "name":"HDFC Bank Millenia Credit Card",
+      "features":{
+         "joining_fee":"500 + GST",
+         "annual_fee":"500 + GST"
+      }
+   },
+   {
+      "name":"HDFC Bank MoneyBack Credit Card",
+      "features":{
+         "joining_fee":"3000 + GST",
+         "annual_fee":"3000 + GST"
+      }
+   },
+   {
+      "name":"HDFC Bank Platinum Plus Credit card",
+      "features":{
+         "joining_fee":"NIL",
+         "annual_fee":"NIL"
+      }
+   }
+]

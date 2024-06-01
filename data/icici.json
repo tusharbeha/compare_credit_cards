@@ -1,0 +1,58 @@
+[
+   {
+      "name":"ICICI Bank Emeralde Credit Card",
+      "features":{
+         "joining_fee":"12000 + GST",
+         "annual_fee":"12000 + GST"
+      }
+   },
+   {
+      "name":"ICICI Bank Sapphiro Credit Card",
+      "features":{
+         "joining_fee":"6500 + GST",
+         "annual_fee":"3500 + GST"
+      }
+   },
+   {
+      "name":"ICICI Bank Coral Contactless Credit Card",
+      "features":{
+         "joining_fee":"500 + GST",
+         "annual_fee":"500 + GST"
+      }
+   },
+   {
+      "name":"ICICI Bank Rubyx Credit Card",
+      "features":{
+         "joining_fee":"3000 + GST",
+         "annual_fee":"3000 + GST"
+      }
+   },
+   {
+      "name":"ICICI Bank Platinum Chip Credit Card",
+      "features":{
+         "joining_fee":"NIL",
+         "annual_fee":"NIL"
+      }
+   },
+   {
+      "name":"Amazon Pay ICICI Credit Card",
+      "features":{
+         "joining_fee":"NIL",
+         "annual_fee":"NIL"
+      }
+   },
+   {
+      "name":"ICICI Bank HPCL Super Saver Credit Card",
+      "features":{
+         "joining_fee":"500 + GST",
+         "annual_fee":"500 + GST"
+      }
+   },
+   {
+      "name":"MakeMyTrip ICICI Bank Signature Credit Card",
+      "features":{
+         "joining_fee":"2500 + GST",
+         "annual_fee":"NIL"
+      }
+   }
+]
