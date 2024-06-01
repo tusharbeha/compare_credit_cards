@@ -1,69 +1,121 @@
-[
-   {
-      "name":"ICICI Bank Emeralde Credit Card",
-      "features":{
-         "joining_fee":"12000 + GST",
-         "annual_fee":"12000 + GST"
+{
+   "data": [
+      {
+         "name": "ICICI Bank Emeralde Credit Card",
+         "features": {
+            "joining_fee": "12000 + GST",
+            "annual_fee": "12000 + GST"
+         }
+      },
+      {
+         "name": "ICICI Bank Sapphiro Credit Card",
+         "features": {
+            "joining_fee": "6500 + GST",
+            "annual_fee": "3500 + GST",
+            "annual_fee_waiver": "Annual fee waived off if you spend more than Rs. 3,00,000 in the previous year",
+            "movie": "2 complimentary movie tickets every month",
+            "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
+            "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
+            "airport": "2 complimentary domestic airport lounge visits per quarter",
+            "railway": "2 complimentary railway lounge visits per quarter",
+            "reward_points": [
+               "Upto 3 ICICI Reward points on domestic spends and upto 6 ICICI Reward points on international spends"
+            ]
+         }
+      },
+      {
+         "name": "ICICI Bank Coral Contactless Credit Card",
+         "features": {
+            "joining_fee": "500 + GST",
+            "annual_fee": "500 + GST",
+            "annual_fee_waiver": "Annual fee waived off if you spend more than Rs. 1,50,000 in the previous year",
+            "movie": "2 complimentary movie tickets every month",
+            "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
+            "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
+            "airport": "1 complimentary domestic airport lounge visits per quarter",
+            "railway": "1 complimentary railway lounge visits per quarter",
+            "reward_points": [
+               "Earn 2 ICICI Reward points for every Rs. 100 spent except fuel"
+            ]
+         }
+      },
+      {
+         "name": "ICICI Bank Rubyx Credit Card",
+         "features": {
+            "joining_fee": "3000 + GST",
+            "annual_fee": "2000 + GST",
+            "annual_fee_waiver": "Annual fee waived off if you spend more than Rs. 3,00,000 in the previous year",
+            "movie": "2 complimentary movie tickets every month",
+            "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
+            "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
+            "airport": "2 complimentary domestic airport lounge visits per quarter",
+            "railway": "2 complimentary railway lounge visits per quarter",
+            "reward_points": [
+               "Upto 3 ICICI Reward points on domestic spends and upto 6 ICICI Reward points on international spends"
+            ]
+         }
+      },
+      {
+         "name": "ICICI Bank Platinum Chip Credit Card",
+         "features": {
+            "joining_fee": "NIL",
+            "annual_fee": "NIL",
+            "interest": "3.40% per month (40.80% annualized)",
+            "reward_points": [
+               "Earn 2 Reward Points on every Rs 100 spent for all retail purchases except fuel.",
+               "Get 1 Reward Point on every Rs 100 spent on utilities and insurance categories"
+            ],
+            "redeem": "ICICI Bank Rewards platform",
+            "fuel": "1% fuel surcharge waiver can be availed on fuel transactions of maximum ₹ 4,000 at HPCL pumps when the Card is swiped on ICICI Merchant Services swipe machines."
+         }
+      },
+      {
+         "name": "Amazon Pay ICICI Credit Card",
+         "features": {
+            "joining_fee": "NIL",
+            "annual_fee": "NIL",
+            "redeem": "Reward earnings can be used to purchase from over 10 crore products at www.amazon.in and at more than 100 merchant partners.",
+            "reward_points": [
+               "5% cashback on transactions made at www.amazon.in for Amazon Prime members",
+               "Earn 3% cashback on transactions made at www.amazon.in for customers who are not Amazon Prime members",
+               "2% cashback on transacting at over 100 Amazon Pay merchant partners on using this card on Amazon Pay",
+               "1% cashback on all other payments",
+               "1 Reward point = 1 Rs ( automatically credited as Amazon Pay Balance )."
+            ],
+            "fuel": "You get a waiver of 1% on fuel surcharge payments each time you refuel."
+         }
+      },
+      {
+         "name": "ICICI Bank HPCL Super Saver Credit Card",
+         "features": {
+            "joining_fee": "199 + GST",
+            "annual_fee": "199 + GST",
+            "annual_fee_waiver": "NIL",
+            "movie": "NIL",
+            "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
+            "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
+            "airport": "NIL",
+            "railway": "NIL",
+            "reward_points": [
+               "Earn 2 ICICI Reward points for every Rs. 100 spent except fueL"
+            ]
+         }
+      },
+      {
+         "name": "MakeMyTrip ICICI Bank Signature Credit Card",
+         "features": {
+            "joining_fee": "2500 + GST",
+            "annual_fee": "NIL",
+            "annual_fee_waiver": "NIL",
+            "movie": "NIL",
+            "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
+            "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
+            "airport": "NIL",
+            "railway": "NIL",
+            "reward_points": [
+               "Earn 2 ICICI Reward points for every Rs. 100 spent except fueL"
+            ]
+         }
       }
-   },
-   {
-      "name":"ICICI Bank Sapphiro Credit Card",
-      "features":{
-         "joining_fee":"6500 + GST",
-         "annual_fee":"3500 + GST",
-         "annual_fee_waiver":"Annual fee waived off if you spend more than Rs. 3,00,000 in the previous year",
-         "movie": "2 complimentary movie tickets every month",
-         "fuel": "1% fuel surcharge waiver at HPCL Petrol Pumps when card is swiped on ICICI Merchant Services swipe machine",
-         "dining": "Min. 15% discount on dining bills at over 2600 restaurants in India",
-         "airport": "2 complimentary domestic airport lounge visits per quarter",
-         "railway": "2 complimentary railway lounge visits per quarter",
-         "reward_points": ["Upto 3 ICICI Reward points on domestic spends and upto 6 ICICI Reward points on international spends"]
-      }
-   },
-   {
-      "name":"ICICI Bank Coral Contactless Credit Card",
-      "features":{
-         "joining_fee":"500 + GST",
-         "annual_fee":"500 + GST"
-      }
-   },
-   {
-      "name":"ICICI Bank Rubyx Credit Card",
-      "features":{
-         "joining_fee":"3000 + GST",
-         "annual_fee":"3000 + GST"
-      }
-   },
-   {
-      "name":"ICICI Bank Platinum Chip Credit Card",
-      "features":{
-         "joining_fee":"NIL",
-         "annual_fee":"NIL",
-         "interest": "3.40% per month (40.80% annualized)",
-         "reward_points": ["Earn 2 Reward Points on every Rs 100 spent for all retail purchases except fuel.", "Get 1 Reward Point on every Rs 100 spent on utilities and insurance categories"],
-         "redeem": "ICICI Bank Rewards platform",
-         "fuel": "1% fuel surcharge waiver can be availed on fuel transactions of maximum ₹ 4,000 at HPCL pumps when the Card is swiped on ICICI Merchant Services swipe machines."
-      }
-   },
-   {
-      "name":"Amazon Pay ICICI Credit Card",
-      "features":{
-         "joining_fee":"NIL",
-         "annual_fee":"NIL"
-      }
-   },
-   {
-      "name":"ICICI Bank HPCL Super Saver Credit Card",
-      "features":{
-         "joining_fee":"500 + GST",
-         "annual_fee":"500 + GST"
-      }
-   },
-   {
-      "name":"MakeMyTrip ICICI Bank Signature Credit Card",
-      "features":{
-         "joining_fee":"2500 + GST",
-         "annual_fee":"NIL"
-      }
-   }
-]
+   ]
+}

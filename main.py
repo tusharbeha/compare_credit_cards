@@ -4,12 +4,12 @@ from features import Features
 import json
 
 
-def add_bank_cards(bank_name, json_data_path, result_list):
+def fetch_bank_cards(bank_name, json_data_path, result_list):
     with open(json_data_path) as data:
         cc_data = json.load(data)
         b = Bank(bank_name)
         b.CreditCards = []
-        for cc in cc_data:
+        for cc in cc_data["data"]:
             cc_features = cc["features"]
 
             f = Features(cc_features["joining_fee"], cc_features["annual_fee"],
@@ -28,9 +28,9 @@ def add_bank_cards(bank_name, json_data_path, result_list):
 
 if __name__ == "__main__":
     result_list = []
-    add_bank_cards("ICICI Bank", "data/icici.json", result_list)
-    add_bank_cards("HDFC Bank", "data/hdfc.json", result_list)
-    add_bank_cards("Axis Bank", "data/axis.json", result_list)
+    fetch_bank_cards("ICICI Bank", "data/icici.json", result_list)
+    fetch_bank_cards("HDFC Bank", "data/hdfc.json", result_list)
+    fetch_bank_cards("Axis Bank", "data/axis.json", result_list)
 
     for bank in result_list:
         print(bank)

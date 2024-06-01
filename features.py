@@ -1,5 +1,5 @@
 class Features:
-    def __init__(self,joining_fee, annual_fee, interest, reward_points, redeem, fuel, annual_fee_waiver, movie, dining, airport, railway):
+    def __init__(self,joining_fee="", annual_fee="", interest="", reward_points="", redeem="", fuel="", annual_fee_waiver="", movie="", dining="", airport="", railway=""):
         self.joining_fee = joining_fee
         self.annual_fee = annual_fee
         self.interest = interest

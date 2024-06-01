@@ -1,4 +1,5 @@
-[
+{
+   "data": [
    {
       "name":"Axis Bank Ace Credit card",
       "features":{
@@ -34,4 +35,5 @@
          "annual_fee":"NIL"
       }
    }
-]
+   ]
+}
